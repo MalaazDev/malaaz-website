@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/malaaz-website/static/css/main.92cf5089.css",
+    "main.css": "/malaaz-website/static/css/main.7aa7b580.css",
     "main.js": "/malaaz-website/static/js/main.6294bfef.js",
     "static/js/787.7578bcfb.chunk.js": "/malaaz-website/static/js/787.7578bcfb.chunk.js",
     "static/media/phone-background.png": "/malaaz-website/static/media/phone-background.660e033bcef491eae658.png",
@@ -11,12 +11,12 @@
     "static/media/appleStore.png": "/malaaz-website/static/media/appleStore.422bb0cf31b719ce4df8.png",
     "static/media/logo2.svg": "/malaaz-website/static/media/logo2.fa0a1d4f676ec97e38b9b83c2d13bda9.svg",
     "index.html": "/malaaz-website/index.html",
-    "main.92cf5089.css.map": "/malaaz-website/static/css/main.92cf5089.css.map",
+    "main.7aa7b580.css.map": "/malaaz-website/static/css/main.7aa7b580.css.map",
     "main.6294bfef.js.map": "/malaaz-website/static/js/main.6294bfef.js.map",
     "787.7578bcfb.chunk.js.map": "/malaaz-website/static/js/787.7578bcfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92cf5089.css",
+    "static/css/main.7aa7b580.css",
     "static/js/main.6294bfef.js"
   ]
 }
