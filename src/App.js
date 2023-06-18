@@ -9,7 +9,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 function App() {
 
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div className="App">
                 <Link to="/">
                     <img src={logo} className="App-logo" alt="logo"/>
@@ -17,10 +17,11 @@ function App() {
 
                 {/*<Home />*/}
                 <Routes>
-                    <Route path="/*" element={<Home />} />
-                        <Route path="/TermsAndConditionsOfUse" element={<TermsAndConditionsOfUse />} />
-                        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-                    </Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/TermsAndConditionsOfUse" element={<TermsAndConditionsOfUse />} />
+                    <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+                    {/*<Route path="/*" element={<NotFound />} />*/}
+                </Routes>
 
                 <nav className="Terms">
                     <ul>
