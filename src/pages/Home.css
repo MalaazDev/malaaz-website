@@ -1,0 +1,93 @@
+.Background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+/*    .App {*/
+/*        text-align: center;*/
+/*    }*/
+
+    .Background {
+        background-image: url('../assets/phone-background.png');
+        height: 100%;
+    }
+
+    .Screen-caps-container {
+        justify-content: space-between;
+    }
+
+    .App-store {
+        width: 30vw;
+        margin: 5px;
+    }
+
+    .App-ScreenCap {
+        height: 100%;
+        padding-top: 100px;
+    }
+
+    .Main-text {
+        font-size: 24px;
+        padding-top: 50px;
+    }
+}
+
+
+@media (min-width: 769px) {
+/*    .App {*/
+/*        !*text-align: center;*!*/
+/*    }*/
+
+    .Background {
+        background-image: url('../assets/desktop-background.png');
+        height: 100vh;
+    }
+
+    .Screen-caps-container {
+        justify-content: flex-end;
+        gap: 50px;
+    }
+    .App-ScreenCap {
+        height: 50vh;
+    }
+
+    .App-store {
+        width: 20vh;
+        margin: 5px;
+    }
+
+    .Main-text {
+        font-size: 36px;
+        text-align: start;
+    }
+
+    .Content-container {
+        display: flex;
+        padding-top: 10vh;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.Screen-caps-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Main-text {
+    color: azure;
+    margin: 25px;
+}
+
+.Content-container {
+    padding-bottom: 50px;
+}
+
+.highlighted-text {
+    color: #58756f;
+}

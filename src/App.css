@@ -1,12 +1,8 @@
-body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-}
-
 @media (max-width: 768px) {
     .App {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
@@ -15,11 +11,6 @@ body {
         width: 50vw;
         cursor: pointer;
         margin: 25px;
-    }
-
-    body {
-        background-image: url('assets/phone-background.png');
-        height: 100%;
     }
 
     .Screen-caps-container {
@@ -41,6 +32,10 @@ body {
         padding-top: 50px;
     }
 
+    .Mini-text {
+        font-size: 12px;
+    }
+
 }
 
 
@@ -54,11 +49,6 @@ body {
         width: 25vw;
         cursor: pointer;
         margin: 25px;
-    }
-
-    body {
-        background-image: url('assets/desktop-background.jpg');
-        height: 100vh;
     }
 
     .Screen-caps-container {
@@ -77,6 +67,10 @@ body {
     .Main-text {
         font-size: 36px;
         text-align: start;
+    }
+
+    .Mini-text {
+        font-size: 18px;
     }
 
     .Content-container {
@@ -99,10 +93,32 @@ body {
     margin: 25px;
 }
 
+.Mini-text {
+    color: #58756f;
+}
+
 .Content-container {
-        padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .highlighted-text {
-  color: #58756f; /* Set your desired color */
+    color: #58756f; /* Set your desired color */
+}
+
+ul {
+    list-style: none; /* Removes the default list style */
+    padding: 0; /* Removes any default padding */
+    margin: 0; /* Removes any default margin */
+}
+
+li {
+    margin-bottom: 0; /* Adds some spacing between list items */
+}
+
+.Terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
 }
