@@ -3,6 +3,7 @@ import React from 'react';
 const PrivacyPolicy = () => {
         return (
             <div className="App">
+
                     <h1 className="Main-Title">Privacy Policy</h1>
                     <p className="Indented-paragraph">Last updated 28/11/2023</p>
                     <p className="Indented-paragraph">Our responsibility:</p>
