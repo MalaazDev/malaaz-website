@@ -3,14 +3,12 @@ import React from 'react';
 const PrivacyPolicy = () => {
         return (
             <div className="App">
-
                     <h1 className="Main-Title">Privacy Policy</h1>
                     <p className="Indented-paragraph">Last updated 28/11/2023</p>
                     <p className="Indented-paragraph">Our responsibility:</p>
                     <p className="Indented-paragraph">• Malaaz is the ‘controller’ of your personal data. This means we decide how and why your data is processed any time you use our service. We go into this in more detail below.</p>
                     <p className="Indented-paragraph">Your responsibility:</p>
                     <p className="Indented-paragraph">• Please read this policy and make sure you’re happy with it before using our service.</p>
-
 
                     <h2 className="Sub-Title">Your property information</h2>
                     <p className="Indented-paragraph">This policy applies to the personal information you share with us, not the information about properties we show on our website or apps. This information is about the property itself, not about the occupants or owners of that property.</p>
