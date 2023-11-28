@@ -42,7 +42,7 @@ const PrivacyPolicy = () => {
             <p className="Indented-paragraph">If there is an unresolved issue relating to your account, such as an outstanding credit on your account or an unresolved claim or dispute, we will retain the necessary personal data until the issue is resolved.</p>
             <p className="Indented-paragraph">Where we are required to retain the personal data for our legal, tax, audit, and accounting obligations, we will retain the necessary personal data for the period required by applicable law.</p>
 
-            <h2 className="Sub-Title">Children’s Privacyy</h2>
+            <h2 className="Sub-Title">Children’s Privacy</h2>
             <p className="Indented-paragraph">Age Limitations: Our service is not directed to individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information from our files.</p>
 
             <h2 className="Sub-Title">Policy Updates</h2>
