@@ -1,57 +1,6 @@
-@media (max-width: 768px) {
-    .App {
-        text-align: left;
-    }
-
-    .Main-Title {
-        font-size: 20px;
-    }
-
-    .Sub-Title {
-        font-size: 16px;
-    }
-
-    .Indented-paragraph {
-        font-size: 12px;
-    }
-}
-
-
-@media (min-width: 769px) {
-    .App {
-        /*text-align: center;*/
-    }
-
-    .Sub-Title:before {
-        content: '• ';
-    }
-
-    .Main-Title {
-        font-size: 24px;
-    }
-
-    .Sub-Title {
-        font-size: 20px;
-        margin: 25px;
-    }
-
-    .Indented-paragraph {
-        font-size: 16px;
-    }
-}
-
-
-.Main-Title {
-    color: #000000;
-    margin: 25px;
-}
-
-.Sub-Title {
-    color: #000000;
-}
-
-.Indented-paragraph {
-    margin-left: 25px;
-    margin-right: 25px;
-    text-align: justify;
+.terms {
+    background-color: #f4f7f6;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+        text-align: justify;
 }

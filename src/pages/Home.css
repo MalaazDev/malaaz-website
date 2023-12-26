@@ -1,93 +1,142 @@
-.Background {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+.background {
+    background-color: #f4f7f6;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.content-container {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.preview-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+    justify-content: center;
+    padding-left: 2.5vw;
+    padding-bottom: 10vw;
+}
+
+.downloads,
+.partners,
+.properties,
+.rating {
+    display: block;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.screen-caps-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-screen-cap {
+    max-height: 50vw;
+    margin: 2vw;
+}
+
+.store-logo {
+    max-width: 15vw;
+}
+
+.store-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.feature-block {
+    flex: 1;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    background: #ffffff;
+}
+
+.feature-title {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.feature-description {
+    font-size: 14px;
+    color: #666;
+    padding-top: 5px;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
-/*    .App {*/
-/*        text-align: center;*/
-/*    }*/
-
-    .Background {
-        background-image: url('../assets/phone-background.png');
-        height: 100%;
+    .content-container {
+        max-width: 100%;
+        text-align: justify;
     }
 
-    .Screen-caps-container {
-        justify-content: space-between;
-    }
-
-    .App-store {
-        width: 30vw;
-        margin: 5px;
-    }
-
-    .App-ScreenCap {
-        height: 100%;
-        padding-top: 100px;
-    }
-
-    .Main-text {
-        font-size: 24px;
-        padding-top: 50px;
-    }
-}
-
-
-@media (min-width: 769px) {
-/*    .App {*/
-/*        !*text-align: center;*!*/
-/*    }*/
-
-    .Background {
-        background-image: url('../assets/desktop-background.png');
-        height: 100vh;
-    }
-
-    .Screen-caps-container {
-        justify-content: flex-end;
-        gap: 50px;
-    }
-    .App-ScreenCap {
-        height: 50vh;
-    }
-
-    .App-store {
-        width: 20vh;
-        margin: 5px;
-    }
-
-    .Main-text {
-        font-size: 36px;
-        text-align: start;
-    }
-
-    .Content-container {
+    .preview-container {
         display: flex;
-        padding-top: 10vh;
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .stats-container {
+        margin: 0;
+        padding-bottom: 10px;
         align-items: center;
     }
-}
 
-.Screen-caps-container {
-    display: flex;
-    flex-direction: row;
-    margin-left: 25px;
-    margin-right: 25px;
-}
+    .downloads,
+    .partners,
+    .properties,
+    .rating {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
 
-.Main-text {
-    color: azure;
-    margin: 25px;
-}
+    .app-screen-cap {
+        max-height: 75vw;
+        margin: 4vw;
+    }
 
-.Content-container {
-    padding-bottom: 50px;
-}
+    .store-logo {
+        max-width: 25vw;
+    }
 
-.highlighted-text {
-    color: #58756f;
+    .features-container {
+        flex-direction: column;
+    }
+
+    .feature-title {
+        font-size: 14px;
+    }
+
+    .feature-description {
+        font-size: 12px;
+    }
 }

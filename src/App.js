@@ -9,32 +9,31 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 function App() {
 
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <div className="App">
-                <Link to="/">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                </Link>
+                <div className="header-container">
+                    <Link to="/">
+                        <img src={logo} className="App-logo" alt="logo"/>
+                    </Link>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a className="mini-text" href="/TermsAndConditionsOfUse">Conditions D'utilisation</a>
+                            </li>
+                            <li>
+                                <a className="mini-text" href="/PrivacyPolicy">Confidentialité</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 
-                {/*<Home />*/}
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/*" element={<Home />} />
                     <Route path="/TermsAndConditionsOfUse" element={<TermsAndConditionsOfUse />} />
                     <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-                    {/*<Route path="/*" element={<NotFound />} />*/}
                 </Routes>
 
-                <nav className="Terms">
-                    <ul>
-                        <li>
-                            <a className="Mini-text" href="/TermsAndConditionsOfUse">Terms and Conditions of Use</a>
-                        </li>
-                        <li>
-                            <a className="Mini-text" href="/PrivacyPolicy">Privacy Policy</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
-
         </Router>
     );
 }
