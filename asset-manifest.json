@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c451459.css",
-    "main.js": "/static/js/main.9ebbe90b.js",
+    "main.css": "/static/css/main.5ea96dc6.css",
+    "main.js": "/static/js/main.a8f4a9a6.js",
     "static/js/787.7578bcfb.chunk.js": "/static/js/787.7578bcfb.chunk.js",
-    "static/media/desktop-background.png": "/static/media/desktop-background.1e44fa2db5da1858732b.png",
-    "static/media/phone-background.png": "/static/media/phone-background.a6c4502782bd4d1fe405.png",
-    "static/media/pixel.png": "/static/media/pixel.df7a92a4737c8bb0cc78.png",
-    "static/media/iphone.png": "/static/media/iphone.e52898cdccdfe17836fa.png",
+    "static/media/pixel.png": "/static/media/pixel.61340c34e06e2d30b9f8.png",
+    "static/media/iphone.png": "/static/media/iphone.13b3a82d047f9b333784.png",
     "static/media/playStore.png": "/static/media/playStore.811db6cb74bc70726cb4.png",
     "static/media/appleStore.png": "/static/media/appleStore.422bb0cf31b719ce4df8.png",
     "static/media/logo2.svg": "/static/media/logo2.fa0a1d4f676ec97e38b9b83c2d13bda9.svg",
     "index.html": "/index.html",
-    "main.9c451459.css.map": "/static/css/main.9c451459.css.map",
-    "main.9ebbe90b.js.map": "/static/js/main.9ebbe90b.js.map",
+    "main.5ea96dc6.css.map": "/static/css/main.5ea96dc6.css.map",
+    "main.a8f4a9a6.js.map": "/static/js/main.a8f4a9a6.js.map",
     "787.7578bcfb.chunk.js.map": "/static/js/787.7578bcfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c451459.css",
-    "static/js/main.9ebbe90b.js"
+    "static/css/main.5ea96dc6.css",
+    "static/js/main.a8f4a9a6.js"
   ]
 }
