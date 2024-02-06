@@ -1,8 +1,5 @@
-{
+[{
   "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.malaaz.Malaaz",
-    "sha256_cert_fingerprints": ["79:E4:F8:87:06:37:A2:2D:CF:15:7A:BE:6B:4B:86:71:24:92:2F:CC:FD:37:97:57:4B:7E:40:52:37:B1:E5:2F"]
-  }
-}
+  "target" : { "namespace": "android_app", "package_name": "com.malaaz.Malaaz",
+               "sha256_cert_fingerprints": ["79:E4:F8:87:06:37:A2:2D:CF:15:7A:BE:6B:4B:86:71:24:92:2F:CC:FD:37:97:57:4B:7E:40:52:37:B1:E5:2F"] }
+}]
