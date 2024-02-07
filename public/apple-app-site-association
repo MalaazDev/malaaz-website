@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "5V7RYM8BXD.com.malaaz.Malaaz",
+        "paths": [
+            "/records/*"
+        ]
+      }
+    ]
+  }
+}
