@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import TermsAndConditionsOfUse from './pages/TermsAndConditionsOfUse';
 import Home from "./pages/Home";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import WellKnownRedirect from "./pages/WellKnownRedirect";
+
 
 function App() {
 
@@ -31,6 +33,7 @@ function App() {
                     <Route path="/*" element={<Home />} />
                     <Route path="/TermsAndConditionsOfUse" element={<TermsAndConditionsOfUse />} />
                     <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+                    <Route path="/.well-known/apple-app-site-association" element={<WellKnownRedirect />} />
                 </Routes>
 
             </div>
