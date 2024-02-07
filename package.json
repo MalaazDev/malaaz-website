@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "echo www.malaaz.online > ./build/CNAME && gh-pages -d build",
+    "deploy": "cp -R public/.well-known build/.well-known && echo www.malaaz.online > ./build/CNAME && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
