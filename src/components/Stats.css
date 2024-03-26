@@ -1,7 +1,20 @@
 .StatsBackground {
     background-color: #002C3B;
+    padding-top: 30px;
 }
 
+.description-text {
+    display: flex;
+    direction: rtl;
+    text-align: justify;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    line-height: 25px;
+}
 /*.content-container {*/
 /*    display: flex;*/
 /*    align-items: center;*/
