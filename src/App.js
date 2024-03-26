@@ -13,10 +13,21 @@ function App() {
     return (
         <Router>
             <div className="App">
+
                 <div className="header-container">
                     <Link to="/">
                         <img src={logo} className="App-logo" alt="logo"/>
                     </Link>
+                </div>
+
+                <Routes >
+                    <Route path="/*" element={<Home />} />
+                    <Route path="/TermsAndConditionsOfUse" element={<TermsAndConditionsOfUse />} />
+                    <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+                    <Route path="/.well-known/apple-app-site-association" element={<WellKnownRedirect />} />
+                </Routes>
+
+                <div className='footer-container'>
                     <nav>
                         <ul>
                             <li>
@@ -28,14 +39,6 @@ function App() {
                         </ul>
                     </nav>
                 </div>
-
-                <Routes>
-                    <Route path="/*" element={<Home />} />
-                    <Route path="/TermsAndConditionsOfUse" element={<TermsAndConditionsOfUse />} />
-                    <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-                    <Route path="/.well-known/apple-app-site-association" element={<WellKnownRedirect />} />
-                </Routes>
-
             </div>
         </Router>
     );

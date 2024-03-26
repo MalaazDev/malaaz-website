@@ -5,7 +5,7 @@ const TermsAndConditionsOfUse = () => {
     return (
         <div className="terms">
 
-            <h1 className="main-text">Service Terms and  Conditions of Use</h1>
+            <h1 className="title-text">Service Terms and  Conditions of Use</h1>
             <p className="mini-text">By using our service, you agree to comply with and be bound by our terms and conditions of use together with our privacy policy and any other documents referred to therein. If you do not agree to these Terms of Use, you must not use our service.</p>
             <p className="mini-text">We reserve the right to amend these Terms of Use from time to time. Any changes will be posted on our Websites (malaaz.online and Malaaz.dz). Your continued use of our service after posting will constitute your acceptance of, and agreement to, any changes. Specific services that we offer, or make available to you, may also be governed by additional or alternative terms and conditions with us, or other third parties.</p>
 

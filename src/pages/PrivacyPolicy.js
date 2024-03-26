@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
         <div className="policy">
             <title>Privacy Policy</title>
 
-            <h1 className="main-text">Privacy Policy</h1>
+            <h1 className="title-text">Privacy Policy</h1>
             <p className="mini-text">Last updated 28/11/2023</p>
             <p className="mini-text">Our responsibility:</p>
             <p className="mini-text">• Malaaz is the ‘controller’ of your personal data. This means we decide how and why your data is processed any time you use our service. We go into this in more detail below.</p>
