@@ -3,7 +3,7 @@ import './YoutubeEmbeddings.css';
 const YoutubeEmbedding = () => {
     const videoId = "36Pq2t6Pvlk";
 
-    const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+    const embedUrl = `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=0`;
 
     return (
         <div className="video-container">
